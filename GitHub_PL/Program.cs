@@ -16,6 +16,8 @@ namespace GitHub_PL
             Console.Write("Введите число b ");
             double b = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Сумма чисел равна " +(a+b));
+            Console.WriteLine("Разность чисел равна " + (a-b));
+            Console.WriteLine("Произведение чисел равно " + (a*b));
             Console.WriteLine("Для выхода нажмите любую клавишу");
             Console.ReadKey();
         }
